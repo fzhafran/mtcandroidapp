@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/white"
+    tools:context=".menu">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TableRow>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="20dp">
+
+                    <LinearLayout
+                        android:id="@+id/cardspec"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clipChildren="true"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="20dp">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/ic_browser_seo_and_web_svgrepo_com" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="5dp"
+                            android:text="Spesification"
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="20dp">
+
+                    <LinearLayout
+                        android:id="@+id/cardmanual"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clipChildren="true"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="20dp">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/ic_book_engineering_svgrepo_com" />
+
+                        <TextView
+                            android:text="Manual Book"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="5dp"
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+            </TableRow>
+
+            <TableRow>
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="20dp">
+
+                    <LinearLayout
+                        android:id="@+id/cardpk"
+                        android:layout_width="match_parent"
+                        android:layout_height="153dp"
+                        android:clipChildren="true"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="20dp">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/ic_book_engineering_svgrepo_com" />
+
+                        <TextView
+                            android:text="PK/IK"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="5dp"
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="20dp">
+
+                    <LinearLayout
+                        android:id="@+id/cardperformance"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clipChildren="true"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="20dp">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/ic_chart_svgrepo_com" />
+
+                        <TextView
+                            android:text="Performance"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="5dp"
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </TableRow>
+
+            <TableRow>
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="20dp">
+
+                    <LinearLayout
+                        android:id="@+id/cardstandard"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clipChildren="true"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="20dp">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/ic_machinery_svgrepo_com" />
+
+                        <TextView
+                            android:text="Standard mtc"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="5dp"
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="20dp">
+
+                    <LinearLayout
+                        android:id="@+id/cardwiring"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clipChildren="true"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="20dp">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/ic_seo_maintenance_svgrepo_com" />
+
+                        <TextView
+                            android:text="Wiring diagram"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="5dp"
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+            </TableRow>
+
+            <TableRow>
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="20dp">
+
+                    <LinearLayout
+                        android:id="@+id/cardhistory"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clipChildren="true"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="20dp">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/ic_book_engineering_svgrepo_com" />
+
+                        <TextView
+                            android:text="History"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="5dp"
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="20dp">
+
+                    <LinearLayout
+                        android:id="@+id/cardform"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clickable="true"
+                        android:clipChildren="true"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="20dp">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/ic_form_svgrepo_com" />
+
+                        <TextView
+                            android:text="Form/Log"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="5dp"
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </TableRow>
+
+        </TableLayout>
+
+</FrameLayout>
