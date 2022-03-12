@@ -17,8 +17,8 @@
                     android:layout_height="150dp"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
-                    app:cardCornerRadius="10dp"
-                    app:cardElevation="20dp">
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp">
 
                     <LinearLayout
                         android:id="@+id/cardspec"
@@ -51,7 +51,7 @@
                     android:layout_height="150dp"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
-                    app:cardCornerRadius="20dp"
+                    app:cardCornerRadius="10dp"
                     app:cardElevation="20dp">
 
                     <LinearLayout
@@ -89,8 +89,8 @@
                     android:layout_height="150dp"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
-                    app:cardCornerRadius="10dp"
-                    app:cardElevation="20dp">
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp">
 
                     <LinearLayout
                         android:id="@+id/cardpk"
@@ -125,8 +125,8 @@
                     android:layout_height="150dp"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
-                    app:cardCornerRadius="10dp"
-                    app:cardElevation="20dp">
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp">
 
                     <LinearLayout
                         android:id="@+id/cardperformance"
@@ -164,8 +164,8 @@
                     android:layout_height="150dp"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
-                    app:cardCornerRadius="10dp"
-                    app:cardElevation="20dp">
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp">
 
                     <LinearLayout
                         android:id="@+id/cardstandard"
@@ -201,8 +201,8 @@
                     android:layout_height="150dp"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
-                    app:cardCornerRadius="10dp"
-                    app:cardElevation="20dp">
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp">
 
                     <LinearLayout
                         android:id="@+id/cardwiring"
@@ -240,8 +240,8 @@
                     android:layout_height="150dp"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
-                    app:cardCornerRadius="10dp"
-                    app:cardElevation="20dp">
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp">
 
                     <LinearLayout
                         android:id="@+id/cardhistory"
@@ -277,8 +277,8 @@
                     android:layout_height="150dp"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
-                    app:cardCornerRadius="10dp"
-                    app:cardElevation="20dp">
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp">
 
                     <LinearLayout
                         android:id="@+id/cardform"
